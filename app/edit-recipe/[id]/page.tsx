@@ -567,7 +567,7 @@ export default function EditRecipe() {
           >
             <h3 className="text-xl font-bold mb-4">Delete Recipe</h3>
             <p className="text-gray-400 mb-6">
-              Are you sure you want to delete "{formData.title}"? This action cannot be undone.
+              Are you sure you want to delete &quot;{formData.title}&quot;? This action cannot be undone.
             </p>
             <div className="flex gap-4">
               <button
